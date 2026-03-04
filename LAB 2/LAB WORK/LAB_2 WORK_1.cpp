@@ -1,6 +1,6 @@
-// Name: M.younas Khan
+// Name: M.Awais
 // Department: Electrical Engineering (POWER)
-// Registration No: BF25NWELE0741
+// Registration No: BF25NWELE0732
 // Section: A
 
 
@@ -15,6 +15,7 @@ int main()
 
     return 0;         //PROGRAM END krny k liye
 }
+
 
 
 
