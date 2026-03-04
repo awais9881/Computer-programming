@@ -1,8 +1,7 @@
-// Name: M.younas Khan
+// Name: M.Awais
 // Department: Electrical Engineering (POWER)
-// Registration No: BF25NWELE0741
+// Registration No: BF25NWELE0732
 // Section: A
-
 
 
 #include <iostream>
@@ -33,3 +32,4 @@ int addTwo(int x, int y)
 {
     return (x + y);  // return sum
 }
+
