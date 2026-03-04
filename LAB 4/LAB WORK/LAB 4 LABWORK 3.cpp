@@ -3,56 +3,51 @@
 // Registration No: BF25NWELE0732
 // Section: A
 
-#include <iostream>
-using namespace std;
-int main()
+#include <iostream> // Include input-output library
+using namespace std; // Use standard namespace
+
+int main() 
+// Main function
+	{
+    char grade; 
+	// Declare variable to store grade
+
+    cout << "Enter grade (A, B, C, D, F): "; // Ask for grade
+    cin >> grade; 
+	// Take input
+
+    switch(grade) 
+	// Start switch statement
     {
-    
-    	char grade=0;
-    	cout<<"enter your grade (A,B,C,D,E,F)"<<endl;
-    	cin>>grade;
-    	
-    	switch(grade)
-    {
-			case 'A':
-			case 'a':
-cout<<"excellent";
-break;
+        case 'A':
+            cout << "Excellent";
+            break;
 
-	
-    	case'B':
-    		case 'b':
-cout<<"very good";
-break;
+        case 'B':
+            cout << "Very Good";
+            break;
 
-	case 'C':
-		case 'c':
-cout<<"good";
-break;
+        case 'C':
+            cout << "Good";
+            break;
 
-	case 'D':
-		case 'd':
-cout<<"Pass";
-break;
+        case 'D':
+            cout << "Pass";
+            break;
+		
+        case 'E':
+            cout << "Barely Pass";
+            break;
+		
+        case 'F':
+            cout << "Fail";
+            break;
 
-	case 'E':
-		case 'e':
-cout<<"barely passed";
-break;
+        default: 
+		// If invalid character entered
+            cout << "Invalid Grade";
+    }
 
-	case 'F':
-		case 'f':
-cout<<"repeat again";
-break;
-
-
-
-default:
-	cout<<"enter correct grade";
-	
-}
-
-return 0;
-}
-
-
+    return 0; 
+	// End program
+	}
