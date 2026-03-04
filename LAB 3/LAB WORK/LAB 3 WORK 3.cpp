@@ -1,8 +1,7 @@
-// Name: Abdul Ahad
-// Department: Electrical Engineering (AI)
-// Registration No: BF25NWELE0692
-// Section: B
-
+// Name: M.Awais
+// Department: Electrical Engineering (POWER)
+// Registration No: BF25NWELE0732
+// Section: A
 
 
 #include <iostream>
@@ -30,3 +29,4 @@ int main()
 
     return 0;  // program ends
 }
+
