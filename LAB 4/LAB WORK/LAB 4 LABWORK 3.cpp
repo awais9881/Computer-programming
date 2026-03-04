@@ -1,8 +1,7 @@
-// Name: Abdul Ahad
-// Department: Electrical Engineering (AI)
-// Registration No: BF25NWELE0692
-// Section: B
-
+// Name: M.Awais
+// Department: Electrical Engineering (POWER)
+// Registration No: BF25NWELE0732
+// Section: A
 
 #include <iostream>
 using namespace std;
@@ -55,4 +54,5 @@ default:
 
 return 0;
 }
+
 
